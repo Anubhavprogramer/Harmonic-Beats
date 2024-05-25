@@ -350,8 +350,8 @@ h2, h3 {
     display: flex;
     justify-content: center;
 }
-.comment-form input, .comment-form textarea {
-    width: 100%;
+.fromfunction input, .fromfunction textarea {
+    width: 96.5%;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -372,6 +372,8 @@ h2, h3 {
 }
 .fromfunction{
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .fromfunction span{
     padding:10px;
@@ -386,7 +388,6 @@ h2, h3 {
     height: 443px;
     overflow-y: scroll;
     overflow-x: auto;
-    width: 100%;
 }
 #comment_box::-webkit-scrollbar{
     width: 10px;
@@ -425,7 +426,7 @@ h2, h3 {
 
 .footer {
     color: #fff;
-    padding: 20px 0;
+    padding: 20px 20px;
     text-align: center;
 }
 
