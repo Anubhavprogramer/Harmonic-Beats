@@ -32,8 +32,8 @@ body::-webkit-scrollbar{
 .Home{
     cursor:none;
     height: max-content;
-    
-}
+    overflow: hidden;
+}   
 header{
     padding: 50px 35px;
 }
