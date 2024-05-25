@@ -351,7 +351,7 @@ h2, h3 {
     justify-content: center;
 }
 .comment-form input, .comment-form textarea {
-    width: 91%;
+    width: 100%;
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -369,6 +369,9 @@ h2, h3 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.fromfunction{
+    padding: 20px;
 }
 .fromfunction span{
     padding:10px;
